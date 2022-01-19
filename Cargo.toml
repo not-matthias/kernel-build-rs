@@ -1,7 +1,9 @@
 [package]
 name = "kernel-build"
+description = "Helper crate for building kernel drivers"
 version = "0.1.0"
 edition = "2021"
+
 
 [build-dependencies]
 winreg = "0.10.1"
