@@ -1,0 +1,8 @@
+[package]
+name = "kernel-build"
+version = "0.1.0"
+edition = "2021"
+
+[build-dependencies]
+winreg = "0.10.1"
+failure = "0.1.8"
