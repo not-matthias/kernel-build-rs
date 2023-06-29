@@ -46,8 +46,10 @@ fn internal_link_search() {
         "x64"
     } else if target.contains("i686") {
         "x86"
+    } else if target.contains("aarch64") {
+        "arm64"
     } else {
-        panic!("Only support x86_64 and i686!");
+        panic!("Only support x86_64, i686 and aarch64!");
     };
 
     let lib_dir = km_dir.join(arch);
